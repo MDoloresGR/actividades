@@ -1,4 +1,4 @@
-base = int(input("¿Cuál es base del triángulo "))
+base = int(input("¿Cuál es base del triángulo ")) #se agrega int para indicar que se agrega un entero, o valor numérico
 altura = int(input("¿Cuál es la altura del triángulo? "))
 area = ((base * altura)/2)
 print (area)
