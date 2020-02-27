@@ -1,7 +1,18 @@
-jug1 = [1, 8, 11, 10, 7]
-jug2 = [2, 6, 8, 12, 4]
-jug3 = [3, 7, 1, 5, 10]
-jug4 = [4, 10, 11, 3, 10]
+mano = 1
+jug1 = []
+jug2 = []
+jug3 = []
+jug4 = []
+while mano < 6:
+  carta = int(input("carta jugador 1: ")) 
+  jug1.append(carta)
+  carta = int(input("carta jugador 2: ")) 
+  jug2.append(carta)
+  carta = int(input("carta jugador 3: ")) 
+  jug3.append(carta)
+  carta = int(input("carta jugador 4: ")) 
+  jug4.append(carta)  
+  mano = mano + 1
 jug1.reverse()
 jug2.reverse()
 jug3.reverse()
